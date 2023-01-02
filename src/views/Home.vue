@@ -85,8 +85,8 @@ import {
   deleteDoc,
   doc,
   updateDoc,
-} from "@firebase/firestore";
-import { db } from "../main";
+} from "firebase/firestore";
+import { db } from "../firebase.js";
 
 export default {
   name: "laptopInfo",
